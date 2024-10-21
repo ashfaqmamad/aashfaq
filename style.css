@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://master-teacher.static.domains/ec9d4cf9-4b76-4586-9dd1-dfd7214e9cc0/bd32e5b7-2440-4f49-b3b8-60c36d8edcf4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%%);
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.content h1{
+    font-size: 40px;
+    margin-top: 20px;
+    
+    
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight:bolder;
+    border: 3px solid #009688;
+    background:transparent;
+    color:whitesmoke;
+    cursor: pointer;
+    position: relative;
+    overflow:inherit;
+    cursor: pointer;
+    transition: 0.8s;
+    
+    
+}
+
+.btn{
+     color: whitesmoke
+}
+
+
+.btn:hover::before{
+        width: 180%
+}
+
+
+.btn::before{
+    content: '';
+    height:0%;
+    width:100%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    transition: 0.8s;
+}
+
+.btn:hover::before{
+        width: 180%;
+}
+   
+   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
